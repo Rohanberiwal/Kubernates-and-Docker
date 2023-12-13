@@ -1,0 +1,37 @@
+Kubernates and docker 
+Docker 
+> tool for running application the in a isolated enviroments 
+> Similar to vm  
+> App  runs in the same envoroment run .
+> Standard for the software deployments  .
+
+Contanier and the vms 
+
+container are abstraction  , at the app layer that packages and the the dependences together  . Multiple container can run on the same machines and share the OS kernal with the other container , each running as the isloated processes in the user space . 
+
+conatiner does not require full operating system , unlike the vm  .It shares the os with the underlying apps . 
+
+Virutal machines 
+These are the abstraction of the physical hardware turning one server into multiple servers . The hypervisor allows the Vm;s to run a single machine , Each Vm include a full copy of the operarign system  , the necessary and the binaries , taking a lot of space and hence a lot of time to boot . 
+
+
+Overview of the docker :
+App A 
+App B 
+App c 
+Docker -<> Layer 1
+Host operating system - <> in the connection with the docker 
+Infrastructure 
+
+
+Overview of the Vms 
+Vm 1 
+Vm 2 
+Vm 3 
+Guest os 
+Hypervisor
+Infrastucutre 
+
+Several benefits :
+1> Run the container to save the time and the save .  
+2> Uses the less memeroy 
